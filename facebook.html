@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<head>
+    
+<style>
+
+ 
+
+
+@font-face {
+  font-family: 'facebook-font';
+  src:url('FacebookSansRegular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+    body {
+        background-color:#f0f2f5;
+    }
+    h1 {
+        text-align: center;
+        color:#0866ff;
+        font-family:"facebook-font";
+        font-size:60px;
+        margin-bottom:0;
+
+    }
+    .username{
+        display: grid;
+        align-items:center;
+        justify-content:center;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .password {
+        display: grid;
+        align-items:center;
+        justify-content:center; 
+        padding-bottom: 10px;
+    }
+
+    input[type=text] {
+        width:400px;
+        border: 100px round;
+        height: 30px;
+        border-radius: 5px;
+    }
+    input[type=password] {
+        width:400px;
+        border: 100px round;
+        height: 30px;
+        border-radius: 5px;
+    }
+    .passres {
+        background-color:#42b72a;
+        color:white;
+        height: 60px;
+        width:200px;
+        border-radius:8px;
+        border-color: white;
+    }
+    
+    .padding {
+        display: grid;
+        align-items:center;
+        justify-content:center; 
+        padding-top:10px;
+    }
+    
+    .padding2{
+        display: grid;
+        align-items:center;
+        justify-content:center;
+        
+
+    }
+    .log {
+        background-color:#275cc5;
+        color:white;
+        height: 50px;
+        width:420px;
+        border-radius:8px;
+        border-color: white;
+        
+
+    }
+    .log::hover {
+        filter: brightness(1.75);
+    }
+
+    .forgot {
+        display: grid;
+        align-items:center;
+        justify-content:center; 
+        padding-top:10px ;
+        padding-bottom:10px
+    }
+   
+    
+    .container {
+        margin:0 auto;
+        padding:10px;
+        width:420px;
+        height:360px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: box-shadow: 21px 20px 10px -14px rgba(0,0,0,0.67);
+        -webkit-box-shadow: 21px 20px 10px -14px rgba(0,0,0,0.67);
+        -moz-box-shadow: 21px 20px 10px -14px rgba(0,0,0,0.67);
+    }
+    
+</style>
+</head>
+<body>
+<h1>facebook</h1>
+<div class="container">
+<div class="username">
+    <label for="uname"></label>
+    <input type="text" placeholder="Login or email" name="uname" required> 
+    <label for="psw"></label>
+</div>
+
+<div class="password">
+    <input type="password" name="psww" placeholder="Password" required>
+   
+</div>
+<div class="padding2">
+    <button class="log">Log in</button>
+    </div>
+<div class="forgot">
+    <a href="password.reset">Forgotten passoword?</a>
+</div>
+<hr>
+<div class="padding">
+<button class="passres">Create new account</button>
+</div>
+</div>
+
+
+</body>
+
+
+</html>
